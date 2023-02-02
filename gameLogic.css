@@ -1,0 +1,40 @@
+.h1first {
+    padding-top: 10%;
+    
+}
+/* h1, h2{
+    background-color: rgb(224, 233, 240);
+} */
+
+body {
+    background-color: rgb(199, 164, 164);
+    z-index: 1;
+}
+
+.out {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+#button, #hint, #textfield
+{
+    width: 20%;
+    height: 40px;
+}
+
+img {
+    opacity: 100%;
+    z-index: -1;
+    position:fixed;
+    width:50%;
+    height: 20%;
+    padding-bottom: 10%;
+    box-shadow: 20px 200px 200px 20px;
+    border-radius:40px;
+}
+.title{
+    background-color: aliceblue;
+}
